@@ -1,4 +1,5 @@
-import confetti from 'https://cdn.skypack.dev/canvas-confetti';
+import confetti from 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/+esm';
+// import confetti from 'https://cdn.skypack.dev/canvas-confetti';
 import anime from 'https://cdn.skypack.dev/animejs';
 
 const yesButton = document.getElementById('yesButton');
@@ -239,4 +240,5 @@ muteBtn.addEventListener('click', (e) => {
     volIcon.innerText = bgMusic.muted ? '🔇' : '🔊';
     volumeSlider.style.opacity = bgMusic.muted ? '0.3' : '1';
 });
+
 
